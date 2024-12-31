@@ -1,0 +1,57 @@
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.exe.config
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.exe
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.pdb
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.AssemblyReference.cache
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Properties.Resources.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.GenerateResource.cache
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.CoreCompileInputs.cache
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.exe
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.pdb
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmTournamentViewer.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreateTournament.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreateTeam.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreatePrize.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmTournamentDashboard.resources
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-BusinessLogic.dll
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-DataLayer.dll
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-BusinessLogic.pdb
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-DataLayer.pdb
+D:\C# project\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tourname.003A64EB.Up2Date
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.exe.config
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.exe
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tournament Tracker Project.pdb
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-BusinessLogic.dll
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-DataLayer.dll
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-BusinessLogic.pdb
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\bin\Debug\Tracker-DataLayer.pdb
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.AssemblyReference.cache
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreatePrize.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreateTeam.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmCreateTournament.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmTournamentDashboard.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmTournamentViewer.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Properties.Resources.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.GenerateResource.cache
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.csproj.CoreCompileInputs.cache
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tourname.003A64EB.Up2Date
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.exe
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament Tracker Project.pdb
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.ctrPersonInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Control.ctrPersonInfoByFilter.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmAddPlayerBySearchFilter.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmMainSecreen.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.People.frmPeopleList.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmTournamentsList.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Matchs.Control.ctrMatchInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Matchs.frmMatchInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Matchs.frmMatchsList.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.frmAddEditPerson.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.People.frmPersonInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Users.Control.ctrUserInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Users.frmUserInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Users.frmUsersList.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Users.frmAddUpdateUser.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Tournament.control.ctrTournamentInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Tournament.frmCurTournamentInfo.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Users.frmChangeUserPassowd.resources
+C:\Users\amrs5\OneDrive\Desktop\full project\C#\Tournament Tracker Project\Tournament Tracker Project\obj\Debug\Tournament_Tracker_Project.Login.frmLogin.resources

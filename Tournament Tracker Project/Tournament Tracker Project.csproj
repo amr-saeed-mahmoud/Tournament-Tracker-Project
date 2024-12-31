@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{768D8A69-1C90-46A0-9655-646531B149E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tournament_Tracker_Project</RootNamespace>
+    <AssemblyName>Tournament Tracker Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tournament\control\ctrTournamentInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tournament\control\ctrTournamentInfo.Designer.cs">
+      <DependentUpon>ctrTournamentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tournament\frmCurTournamentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tournament\frmCurTournamentInfo.Designer.cs">
+      <DependentUpon>frmCurTournamentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tournament\frmTournamentsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tournament\frmTournamentsList.Designer.cs">
+      <DependentUpon>frmTournamentsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matchs\Control\ctrMatchInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Matchs\Control\ctrMatchInfo.Designer.cs">
+      <DependentUpon>ctrMatchInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matchs\frmMatchInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matchs\frmMatchInfo.Designer.cs">
+      <DependentUpon>frmMatchInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matchs\frmMatchsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matchs\frmMatchsList.Designer.cs">
+      <DependentUpon>frmMatchsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Control\ctrPersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Control\ctrPersonInfo.Designer.cs">
+      <DependentUpon>ctrPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Control\ctrPersonInfoByFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Control\ctrPersonInfoByFilter.Designer.cs">
+      <DependentUpon>ctrPersonInfoByFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmAddPlayerBySearchFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmAddPlayerBySearchFilter.Designer.cs">
+      <DependentUpon>frmAddPlayerBySearchFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmAddEditPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmAddEditPerson.Designer.cs">
+      <DependentUpon>frmAddEditPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainSecreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainSecreen.Designer.cs">
+      <DependentUpon>frmMainSecreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global Classes\clsGlobel.cs" />
+    <Compile Include="Global Classes\clsValidation.cs" />
+    <Compile Include="Prize\frmCreatePrize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prize\frmCreatePrize.Designer.cs">
+      <DependentUpon>frmCreatePrize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Team\frmCreateTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team\frmCreateTeam.Designer.cs">
+      <DependentUpon>frmCreateTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tournament\frmCreateTournament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tournament\frmCreateTournament.Designer.cs">
+      <DependentUpon>frmCreateTournament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tournament\frmTournamentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tournament\frmTournamentDashboard.Designer.cs">
+      <DependentUpon>frmTournamentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matchs\frmTournamentViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matchs\.Designer.cs">
+      <DependentUpon>frmTournamentViewer.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmPeopleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmPeopleList.Designer.cs">
+      <DependentUpon>frmPeopleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmPersonInfo.Designer.cs">
+      <DependentUpon>frmPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\Control\ctrUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\Control\ctrUserInfo.Designer.cs">
+      <DependentUpon>ctrUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmChangeUserPassowd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmChangeUserPassowd.Designer.cs">
+      <DependentUpon>frmChangeUserPassowd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUsersList.Designer.cs">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tournament\control\ctrTournamentInfo.resx">
+      <DependentUpon>ctrTournamentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tournament\frmCurTournamentInfo.resx">
+      <DependentUpon>frmCurTournamentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tournament\frmTournamentsList.resx">
+      <DependentUpon>frmTournamentsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchs\Control\ctrMatchInfo.resx">
+      <DependentUpon>ctrMatchInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchs\frmMatchInfo.resx">
+      <DependentUpon>frmMatchInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchs\frmMatchsList.resx">
+      <DependentUpon>frmMatchsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Control\ctrPersonInfo.resx">
+      <DependentUpon>ctrPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Control\ctrPersonInfoByFilter.resx">
+      <DependentUpon>ctrPersonInfoByFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmAddPlayerBySearchFilter.resx">
+      <DependentUpon>frmAddPlayerBySearchFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prize\frmCreatePrize.resx">
+      <DependentUpon>frmCreatePrize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team\frmCreateTeam.resx">
+      <DependentUpon>frmCreateTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tournament\frmCreateTournament.resx">
+      <DependentUpon>frmCreateTournament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmAddEditPerson.resx">
+      <DependentUpon>frmAddEditPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainSecreen.resx">
+      <DependentUpon>frmMainSecreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tournament\frmTournamentDashboard.resx">
+      <DependentUpon>frmTournamentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchs\frmTournamentViewer.resx">
+      <DependentUpon>frmTournamentViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmPeopleList.resx">
+      <DependentUpon>frmPeopleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmPersonInfo.resx">
+      <DependentUpon>frmPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Users\Control\ctrUserInfo.resx">
+      <DependentUpon>ctrUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmChangeUserPassowd.resx">
+      <DependentUpon>frmChangeUserPassowd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUserInfo.resx">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUsersList.resx">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tracker-BusinessLogic\Tracker-BusinessLogic.csproj">
+      <Project>{e95ab5d8-e951-4bbd-9efa-1aad88dd9324}</Project>
+      <Name>Tracker-BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeBlack32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Number 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Email 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchPerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddPerson 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searching.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_black_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-sebastiaan-stam-1480690.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tournaments64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matchs64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users 2 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_settings 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonDetails 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send email 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matchs512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approval 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-station.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matchs Schedule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tournament Dashboard 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tournament Dashboard 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users 2 400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add users32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tournaments List 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Passed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Release Detained License 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out 32 -2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User 32 -2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_in 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
