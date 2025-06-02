@@ -44,7 +44,7 @@ Note: Sample credentials or seed data are not included in this version. You may 
 
 ## Database Setup
 
-A `.bak` SQL Server database backup is included in the repository under the `/Database/` folder.
+A `.bak` SQL Server database backup is included in the repository.
 
 ## Connection String
 
