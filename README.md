@@ -46,7 +46,7 @@ Note: Sample credentials or seed data are not included in this version. You may 
 
 A `.bak` SQL Server database backup is included in the repository under the `/Database/` folder.
 
-### Connection String
+## Connection String
 
 To run the application, update the connection string in the `App.config` file:
 
@@ -57,7 +57,8 @@ To run the application, update the connection string in the `App.config` file:
        providerName="System.Data.SqlClient" />
 </connectionStrings>
 
-### Contact  
+
+## Contact  
 Amr Saeed  
 Email: amrpr6@gmail.com  
 Phone: +20 1024378380 
