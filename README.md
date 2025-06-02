@@ -56,7 +56,7 @@ To run the application, update the connection string in the `App.config` file:
        connectionString="Data Source=YOUR_SERVER_NAME;Initial Catalog=TournamentTracker;Integrated Security=True"
        providerName="System.Data.SqlClient" />
 </connectionStrings>
-
+```
 
 ## Contact  
 Amr Saeed  
