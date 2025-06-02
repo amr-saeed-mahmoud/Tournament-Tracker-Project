@@ -57,8 +57,8 @@ To run the application, update the connection string in the `App.config` file:
        providerName="System.Data.SqlClient" />
 </connectionStrings>
 
-## Contact  
+### Contact  
 Amr Saeed  
 Email: amrpr6@gmail.com  
-Phone: +20 1024378380
+Phone: +20 1024378380 
 WhatsApp: +20 1024378380
